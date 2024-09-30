@@ -183,7 +183,7 @@ ul.links-header li a {
 }
 
 .testimonials-section .left {
-    width: 559px;
+    width: 564px;
     height: 546px;
     position: relative;
 }
@@ -280,4 +280,82 @@ ul.links-header li a {
     font-size: 16px;
     line-height: 200%;
     color: var(--deep-blue-color);
+}
+/* End Testimonial Section */
+
+.courses-section {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+
+.courses-section .wrapper h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 56px;
+}
+
+.courses-section .wrapper .course-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-section .wrapper .course-cards .course-card {
+    width: 526px;
+    height: 418px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.courses-section .wrapper .course-cards .course-card img {
+    height: 270px;
+    width: 462px;
+}
+
+.courses-section .wrapper .course-cards .course-card .info {
+    height: 90px;
+    width: 462px;
+    margin-top: 30px;
+    margin-bottom: 38px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.courses-section .wrapper .course-cards .course-card .info h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--deep-blue-color);
+    width: 374px;
+}
+
+.courses-section .wrapper .course-cards .course-card .info .duration {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: var(--deep-blue-color);
+}
+
+.courses-section .wrapper .course-cards .course-card .underline-course {
+    content: '';
+    width: 462px;
+    height: 8px;
+    background-color: var(--deep-blue-color);
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.courses-section .wrapper .btn {
+    margin-top: 45px;
+    right: 141.5px;
+    position: absolute;
 }
