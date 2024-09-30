@@ -1,0 +1,170 @@
+:root {
+    --orange-color: #DA722C;
+    --ice-color: #E8F7FB;
+    --blue-color: #057ADA;
+    --deep-blue-color: #023047;
+    --black-blue-color: #070917;
+    --purple-blue-color: #6F7DFB;
+}
+/* End Colors */
+
+.btn {
+    padding: 12px 32px;
+    border-radius: 24px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.dark {
+    background: var(--deep-blue-color);
+}
+
+.light {
+    background: var(--orange-color);
+}
+/* End Buttons */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(180deg, #6F7DFB 0%, #414DB5 62.78%, #26308C 100%);
+}
+
+.wrapper {
+    width: 1130px;
+    margin: 0 118px;
+}
+/* End General Configs */
+
+nav.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    width: 1030px;
+    height: 59px;
+    margin-top: 40px;
+}
+
+nav.header-nav .logo {
+font-family: "Raleway", sans-serif;
+font-weight: 900;
+font-size: 40px;
+line-height: 47px;
+}
+
+ul.links-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 59px;
+}
+
+ul.links-header li {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+ul.links-header li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* End Nav Bar Header */
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    /* padding-top: 218px; */
+}
+
+.hero-section .left {
+    width: 457px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+}
+
+.hero-section .left h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+}
+
+.hero-section .left p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 200%;
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+
+.hero-section .right {
+    position: absolute;
+    bottom: -4px;
+    right: 0px;
+}
+
+.hero-section .right img {
+    height: 480px;
+}
+
+.hero-section .achievement-cards .achievement-card {
+    color: var(--deep-blue-color);
+    background-color: #FFFFFF;
+    text-align: center;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);;
+    border-radius: 24px;
+    height: 90px;
+}
+
+.hero-section .achievement-cards .achievement-card .content .content-title {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section .achievement-cards .achievement-card h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.hero-section .achievement-cards .achievement-card p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero-section .achievement-cards .students-enrolled {
+    position: absolute;
+    width: 206px;
+    top: 42%;
+    left: 45%;
+}
+
+.hero-section .achievement-cards .overall-rating {
+    position: absolute;
+    width: 183px;
+    top: 74%;
+    left: 42%;
+}
+/* End Hero Section */
+
